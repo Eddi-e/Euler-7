@@ -25,3 +25,4 @@ while numberLoop is True:
         print ("the length of the prime list is",len(primeList))
         print (numCount)
         numberLoop = False
+input()
