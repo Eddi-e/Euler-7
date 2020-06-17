@@ -19,8 +19,9 @@ while numberLoop is True:
                 primeTest = False
         if primeTest == True:
             primeList.append(numCount)
-            print (numCount)
+            print (numCount, "is the highest prime number so far")
     numList.append(numCount)
     if len(primeList) == (10001):
+        print ("the length of the prime list is",len(primeList))
         print (numCount)
         numberLoop = False
