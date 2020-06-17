@@ -19,7 +19,7 @@ while numberLoop is True:
                 primeTest = False
         if primeTest == True:
             primeList.append(numCount)
-            print numCount
+            print (numCount)
     numList.append(numCount)
     if len(primeList) == (10001):
         print (numCount)
