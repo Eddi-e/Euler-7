@@ -17,6 +17,7 @@ while numberLoop is True:
         for i in range (0,nListLength):
             if numCount % numList[i] == 0:
                 primeTest = False
+                break
         if primeTest == True:
             primeList.append(numCount)
             print (numCount, "is the highest prime number so far")
